@@ -16,8 +16,6 @@
 
 #prep Files
 #net localgroup administrators /add "AzureAD\UserUpn"
-#PPKG https://mauvlan-my.sharepoint.com/:u:/g/personal/adam_mauvlan_net/EZs0A4ajyvFBiCNyv7Ohoy0BSzHVA_acTc2fY40LPkAYFg?e=jeDRLB
-#PS1 https://mauvlan-my.sharepoint.com/:u:/g/personal/adam_mauvlan_net/EeSorlIcH0BFmJ4IE_EURRwBgXqX_GRJDN9nd1thNI3LDQ?e=KmZYcU
 
 #Start Transcription
 Write-Output "Writing Local Files" 
