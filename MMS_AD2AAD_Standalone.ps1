@@ -28,8 +28,8 @@ if (!(Test-Path $path)) {
 Start-Transcript -Path C:\ProgramData\CustomScripts\AD2AADJ.txt -NoClobber
 
 # Script varibles
-$DomainAdmin = "Mauvlan\MVNAdmin"
-$DomainAdminPassword = "Geeking2019!"
+$DomainAdmin = "DOMAIN\USERNAME"
+$DomainAdminPassword = "PASSWORD"
 $TempUserPassword = "P@ssword!"
 $TempUser = "MMSTemp"
 
